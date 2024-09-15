@@ -106,21 +106,7 @@ This project is an Instagram Clone, a replication of the popular social media pl
 
 ## Diagrams
 
-###Sequence Diagram
+### Sequence Diagram
 
-@startuml
-actor User
+![image](https://github.com/user-attachments/assets/50bb58a1-4aac-41c2-ac84-fdffe0f23343)
 
-User -> AuthenticationService: Sign Up / Log In
-AuthenticationService -> Database: Verify Credentials / Store User Data
-User -> ProfileService: Update Profile
-ProfileService -> Database: Save Profile Data
-User -> PhotoService: Upload Photo
-PhotoService -> Database: Store Photo
-User -> FeedService: View Feed
-FeedService -> Database: Fetch Posts from Followed Users
-User -> LikeService: Like Post
-LikeService -> Database: Update Like Count
-User -> CommentService: Comment on Post
-CommentService -> Database: Store Comment
-@enduml
