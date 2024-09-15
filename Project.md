@@ -103,3 +103,24 @@ This project is an Instagram Clone, a replication of the popular social media pl
 - **Performance**: Response time, throughput, and other performance-related metrics.
 
 ---
+
+## Diagrams
+
+###Sequence Diagram
+
+@startuml
+actor User
+
+User -> AuthenticationService: Sign Up / Log In
+AuthenticationService -> Database: Verify Credentials / Store User Data
+User -> ProfileService: Update Profile
+ProfileService -> Database: Save Profile Data
+User -> PhotoService: Upload Photo
+PhotoService -> Database: Store Photo
+User -> FeedService: View Feed
+FeedService -> Database: Fetch Posts from Followed Users
+User -> LikeService: Like Post
+LikeService -> Database: Update Like Count
+User -> CommentService: Comment on Post
+CommentService -> Database: Store Comment
+@enduml
