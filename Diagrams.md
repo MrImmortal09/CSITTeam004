@@ -1,4 +1,4 @@
-###Sequence Diagram
+### Sequence Diagram
 
 @startuml
 actor User
@@ -18,7 +18,7 @@ CommentService -> Database: Store Comment
 @enduml
 
 
-###Use Case Diagram
+### Use Case Diagram
 
 @startuml
 actor User
