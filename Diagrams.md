@@ -1,24 +1,27 @@
-### Sequence Diagram
+## Sequence Diagram
 
 @startuml
 actor User
 
 User -> AuthenticationService: Sign Up / Log In
 AuthenticationService -> Database: Verify Credentials / Store User Data
+<br>
 User -> ProfileService: Update Profile
 ProfileService -> Database: Save Profile Data
+<br>
 User -> PhotoService: Upload Photo
 PhotoService -> Database: Store Photo
+<br>
 User -> FeedService: View Feed
 FeedService -> Database: Fetch Posts from Followed Users
+<br>
 User -> LikeService: Like Post
 LikeService -> Database: Update Like Count
+<br>
 User -> CommentService: Comment on Post
 CommentService -> Database: Store Comment
 @enduml
-
-
-### Use Case Diagram
+<br>
 
 @startuml
 actor User
@@ -32,7 +35,7 @@ usecase "Follow/Unfollow User" as UC6
 usecase "View Feed" as UC7
 usecase "Search for Users" as UC8
 usecase "Receive Notifications" as UC9
-
+<br>
 User --> UC1
 User --> UC2
 User --> UC3
@@ -43,3 +46,4 @@ User --> UC7
 User --> UC8
 User --> UC9
 @enduml
+<br>
