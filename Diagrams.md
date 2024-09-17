@@ -8,6 +8,6 @@
 ![use_case_diag](https://github.com/user-attachments/assets/cbe1b10d-78cd-41d6-ba12-f477a7831c5b)
 
 
-### Class Diagram
+## Class Diagram
 
 ![class_diag](https://github.com/user-attachments/assets/f4f138af-9373-4b87-8fde-76b9ec460029)
