@@ -56,3 +56,67 @@ User --> UC8 <br>
 User --> UC9 <br>
 @enduml <br>
 <br>
+
+
+###Class Diagram
+
+@startuml
+class User {
+  +String username
+  +String email
+  +String password
+  +Profile profile
+  +signUp()
+  +logIn()
+  +logOut()
+}
+
+class Profile {
+  +String bio
+  +String profilePicture
+  +updateProfile()
+}
+
+class Photo {
+  +String photoId
+  +String caption
+  +uploadPhoto()
+}
+
+class Post {
+  +Photo photo
+  +List<Comment> comments
+  +List<Like> likes
+  +addComment()
+  +addLike()
+}
+
+class Comment {
+  +String text
+  +User author
+  +commentOnPost()
+}
+
+class Like {
+  +User user
+  +likePost()
+}
+
+class Follow {
+  +User follower
+  +User followed
+  +followUser()
+  +unfollowUser()
+}
+
+User "1" --> "1" Profile
+User "1" --> "0..*" Post
+User "1" --> "0..*" Comment
+User "1" --> "0..*" Like
+User "1" --> "0..*" Follow
+Post "1" --> "1" Photo
+Post "0..*" --> "0..*" Comment
+Post "0..*" --> "0..*" Like
+@enduml
+
+
