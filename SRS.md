@@ -19,3 +19,13 @@
 - **Performance Requirements**: Expected system performance metrics.
 - **Logical Database Requirements**: Database design and constraints.
 - **Design Constraints**: Any constraints on the design such as regulatory policies, hardware limitations, or other systems.
+
+### Non-Functional Requirements (NFRs)
+- **Security**: Details on authentication, authorization, data encryption, etc.
+- **Maintainability**: Ease of updates and maintenance.
+- **Portability**: Ability to port the application to different platforms.
+- **Reliability**: Expected uptime and error handling.
+- **Usability**: User experience considerations.
+- **Performance**: Response time, throughput, and other performance-related metrics.
+
+---
