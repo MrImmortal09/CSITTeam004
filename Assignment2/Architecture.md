@@ -1,6 +1,7 @@
 # Instagram Clone Architecture
 ## 1. System Context Diagram
 
+![initial](https://github.com/user-attachments/assets/10f289e7-4cf9-4175-af6b-eae8944b4657)
 
 
 ```
@@ -35,6 +36,8 @@ MediaSystem --> NotificationService : Notify Followers
 ---
 ## 2. Container Diagram 
 The container diagram breaks down the system into high-level containers and their interactions.
+
+![cotainer](https://github.com/user-attachments/assets/6c7d0c86-6d5c-4054-a641-3d63a7b10aa1)
 
 
 ```
@@ -76,6 +79,7 @@ AnalyticsService --> UserDB : Analyze User Data
 ### 3.1 Component Diagram for Users
 This diagram shows the system components and interactions from the user's perspective.
 
+![componentuser](https://github.com/user-attachments/assets/e824ea26-c840-4872-86ae-6896fc413914)
 
 
 ```
@@ -106,6 +110,7 @@ User --> AnalyticsSystem : View Engagement Insights
 ### 3.2 Component Diagram for Admins
 This diagram shows the system components and interactions from the admin's perspective.
 
+![componentadmin](https://github.com/user-attachments/assets/825ddf81-50ee-4427-8b51-345bf7e5e055)
 
 
 ```
@@ -134,6 +139,8 @@ Admin --> NotificationManagement : Manage Notifications
 ---
 # 4. Deployment Diagram
 This diagram outlines the physical deployment of the system across servers, databases, and external services.
+
+![image](https://github.com/user-attachments/assets/1c445bfa-e925-4b93-a3f5-9d2e148f1992)
 
 
 ```
