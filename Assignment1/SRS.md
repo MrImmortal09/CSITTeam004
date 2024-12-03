@@ -232,6 +232,9 @@ The platform follows a client-server architecture:
 
 ## 8. Use Case Diagram
 
+![telegram-cloud-photo-size-5-6231256136812707764-y](https://github.com/user-attachments/assets/c0142e60-bd9a-4bb4-94e2-7798a7b4a675)
+
+
 ### **Use Case 1: User Registration**
 
 - **Actors**: New User
@@ -286,9 +289,13 @@ The platform follows a client-server architecture:
 
 ## 9. Abuse Case Diagram
 
+![telegram-cloud-photo-size-5-6231256136812707762-y](https://github.com/user-attachments/assets/0d11da53-2bf3-496e-b64c-ad587c982f66)
+
 ---
 
 ## 10. Error Case Diagram
+
+![telegram-cloud-photo-size-5-6231256136812707759-x](https://github.com/user-attachments/assets/2b48190d-799f-4e22-91bc-c4028b685db7)
 
 ---
 
