@@ -13,4 +13,4 @@
 | Karan Agarwal   | Information Technology |LIT2023011    | karanagarwal200505@gmail.com | karanagarwal12  |
 |Sarthak Tiwari   | Information Technology  | LIT2023047   | sarthaktiwari611@gmail.com   | sarthakxtiwari | 
 
-**Project Name:** Instagram Clone
+**Project Name:** Pixello
