@@ -5,7 +5,7 @@
 
 ## Use Case Diagram
 
-![use_case_diag](https://github.com/user-attachments/assets/cbe1b10d-78cd-41d6-ba12-f477a7831c5b)
+![telegram-cloud-photo-size-5-6231256136812707764-y](https://github.com/user-attachments/assets/494dfa45-9ab3-4d47-8545-71ce54327cef)
 
 
 ## Class Diagram
