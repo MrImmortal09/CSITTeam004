@@ -1,4 +1,4 @@
-# Software Requirements Specification (SRS) for Instagram Competitor
+# Software Requirements Specification (SRS) for Pixello
 
 ## 1. Introduction
 
@@ -8,7 +8,7 @@ The purpose of this document is to outline the software requirements for the dev
 
 ### 1.2 Scope
 
-The Instagram Competitor project focuses on creating a visually engaging and highly interactive platform for social connectivity. The application will enable users to:
+The Pixello project focuses on creating a visually engaging and highly interactive platform for social connectivity. The application will enable users to:
 
 - Create accounts and log in securely.
 - Share multimedia content such as photos and videos with captions.
@@ -22,7 +22,7 @@ This application is designed for web and mobile use, ensuring a seamless experie
 
 ### 1.3 Overview
 
-The Instagram Competitor will feature an intuitive user interface, robust back-end architecture, and seamless integration with third-party services like cloud storage and push notifications. The system will be scalable to accommodate a growing user base, reliable with minimal downtime, and secure to protect user data and privacy.
+Pixello will feature an intuitive user interface, robust back-end architecture, and seamless integration with third-party services like cloud storage and push notifications. The system will be scalable to accommodate a growing user base, reliable with minimal downtime, and secure to protect user data and privacy.
 
 ---
 
@@ -232,7 +232,7 @@ The platform follows a client-server architecture:
 
 ## 8. Use Case Diagram
 
-![telegram-cloud-photo-size-5-6231256136812707764-y](https://github.com/user-attachments/assets/c0142e60-bd9a-4bb4-94e2-7798a7b4a675)
+![image](https://github.com/user-attachments/assets/87032384-2f08-4a3d-945f-7a3256cae7df)
 
 
 ### **Use Case 1: User Registration**
@@ -289,13 +289,13 @@ The platform follows a client-server architecture:
 
 ## 9. Abuse Case Diagram
 
-![telegram-cloud-photo-size-5-6231256136812707762-y](https://github.com/user-attachments/assets/0d11da53-2bf3-496e-b64c-ad587c982f66)
+![image](https://github.com/user-attachments/assets/74127843-3698-4814-b25b-0c1110cd8d31)
 
 ---
 
 ## 10. Error Case Diagram
 
-![telegram-cloud-photo-size-5-6231256136812707759-x](https://github.com/user-attachments/assets/2b48190d-799f-4e22-91bc-c4028b685db7)
+![image](https://github.com/user-attachments/assets/0a8c5cd0-a5c6-42ac-904b-b259caebd749)
 
 ---
 
