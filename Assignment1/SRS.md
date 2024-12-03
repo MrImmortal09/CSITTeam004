@@ -249,8 +249,6 @@ The platform follows a client-server architecture:
   - If the user provides invalid or incomplete information, the system displays an error message prompting for corrections.
   - If the email is already in use, the system notifies the user to provide a different email address.
 
----
-
 ### **Use Case 2: Uploading Content**
 
 - **Actors**: Logged-in User
@@ -267,8 +265,6 @@ The platform follows a client-server architecture:
 - **Alternate Flow**:
   - If the file format is not supported, the system shows an error message and prompts the user to select a valid file format.
   - If the upload fails due to connection issues, the system displays a retry option.
-
----
 
 ### **Use Case 3: Direct Messaging**
 
