@@ -9,11 +9,6 @@ This project is an Instagram Clone, a replication of the popular social media pl
 ### Project Name: Instagram Clone
 
 ### GitHub Issue: [Record of Approval](https://github.com/IIITLucknowSWEngg/Assignment/issues/2)
-
----
-
-Here is a **Software Scope and Methodology Document** tailored for the Instagram Clone project:
-
 ---
 
 
