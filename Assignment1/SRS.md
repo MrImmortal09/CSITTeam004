@@ -1,102 +1,301 @@
-## Software Requirements Specification (SRS)
+# Software Requirements Specification (SRS) for Instagram Competitor
 
-## Introduction
+## 1. Introduction
 
-### Purpose
-The Instagram Clone project aims to create a social media platform that allows users to share photos, videos, stories, and interact with others through likes, comments, and direct messaging. The goal is to replicate key features of Instagram and provide an intuitive user experience for connecting and sharing content globally.
+### 1.1 Purpose
 
-### Scope
-This project includes the following features:
-- User authentication (sign-up, login, password recovery)
-- Photo and video posting with optional filters
-- Liking, commenting, and sharing posts
-- Following/unfollowing users
-- Direct messaging between users
-- Story creation and sharing
-- User notifications for interactions
+The purpose of this document is to outline the software requirements for the development of an Instagram-like social media platform. The system will enable users to share photos and videos, engage with content through likes and comments, follow other users, and interact via direct messaging. This document provides a comprehensive overview of the functional and non-functional requirements, user scenarios, system constraints, and design considerations to ensure a clear understanding among stakeholders.
 
-The project will be developed as a web application, optimized for both desktop and mobile devices.
+### 1.2 Scope
 
-## Overall Description
+The Instagram Competitor project focuses on creating a visually engaging and highly interactive platform for social connectivity. The application will enable users to:
 
-### Product Perspective
-The Instagram Clone will function as a standalone social media platform, integrating with external services for email notifications, cloud storage for media uploads, and social login providers (e.g., Google, Facebook). It will feature a REST API for future integration with mobile applications.
+- Create accounts and log in securely.
+- Share multimedia content such as photos and videos with captions.
+- Interact with others through likes, comments, and shares.
+- Follow other users to view their content in a personalized feed.
+- Send direct messages for private communication.
+- Post time-limited stories that disappear after 24 hours.
+- Receive notifications about interactions and updates.
 
-### Product Functions
-- **User Authentication**: Sign up, login, password recovery, and social logins.
-- **Content Posting**: Upload photos, videos, and stories with editing and filter options.
-- **Interaction**: Like, comment, and follow/unfollow users.
-- **Direct Messaging**: Private messaging between users.
-- **Feed**: Displays posts from followed users.
-- **Notifications**: Alerts users of interactions such as likes, comments, follows, and messages.
+This application is designed for web and mobile use, ensuring a seamless experience across multiple devices.
 
-### User Characteristics
-Target users are individuals familiar with social media platforms, ranging from casual users to influencers. Users expect a visually appealing, easy-to-navigate interface.
+### 1.3 Overview
 
-### Constraints
-- **Regulatory Compliance**: Must comply with privacy regulations like GDPR and CCPA.
-- **Performance**: Handle a large number of users and media uploads efficiently.
-- **Security**: Ensure strong data protection for user information and media.
-
-### Assumptions and Dependencies
-- Users have access to stable internet connections.
-- External services such as cloud storage, email verification, and social login APIs are available and functioning.
-
-## Specific Requirements
-
-### Functional Requirements
-- **User Registration & Login**: Users can sign up, log in, or recover passwords through email or social login.
-- **Post Creation**: Users can upload media (photos/videos) with optional captions and filters.
-- **Likes & Comments**: Users can interact with posts by liking or commenting, and receive notifications.
-- **Follow/Unfollow**: Users can follow or unfollow others, and their feeds will update accordingly.
-- **Direct Messaging**: Users can communicate with each other through private messages.
-- **Story Sharing**: Users can create and share stories that disappear after 24 hours.
-- **Notifications**: Users receive real-time notifications of interactions.
-
-### Interface Requirements
-- **User Interface**: A responsive web interface optimized for both desktop and mobile browsers.
-- **Hardware Interface**: Compatible with modern web-enabled devices for media uploads.
-- **Software Interface**: REST APIs for communication between frontend and backend services. Integration with cloud storage for media.
-- **Communication Interface**: Use of HTTP/HTTPS protocols for data transmission and WebSockets for real-time notifications.
-
-### Performance Requirements
-- **Response Time**: System should load pages and respond within 2 seconds under normal traffic.
-- **Scalability**: Must handle up to 1 million concurrent users without performance degradation.
-- **Availability**: System uptime of 99.9%.
-
-### Logical Database Requirements
-- **User Table**: Stores user details (e.g., username, email, password).
-- **Posts Table**: Stores post details including media, captions, timestamps, and user IDs.
-- **Comments Table**: Stores user comments on posts.
-- **Followers Table**: Manages follower relationships between users.
-- **Messages Table**: Stores direct messages between users.
-
-### Design Constraints
-- **Regulatory Compliance**: The system must comply with GDPR and other privacy regulations.
-- **Hardware Limitations**: Optimized for standard devices, capable of handling high-resolution uploads.
-- **Third-party Dependencies**: System depends on cloud services and external APIs for key functionalities (e.g., storage, email verification).
-
-### Non-Functional Requirements (NFRs)###
-Security
-Authentication: Implement OAuth 2.0 for user authentication, allowing secure login via email and social media accounts.
-Authorization: Role-based access control to manage permissions for different user roles (e.g., admin, regular user).
-Data Encryption: Utilize HTTPS for data in transit and AES-256 encryption for sensitive data at rest (e.g., user passwords, private messages).
-Maintainability
-Code Modularity: Structure the codebase using a modular design pattern to facilitate easy updates and maintenance.
-Documentation: Maintain comprehensive documentation for APIs, libraries, and code to assist developers in future enhancements.
-Automated Testing: Implement unit tests and integration tests to ensure that new updates do not introduce bugs.
-Portability
-Cross-Platform Compatibility: Ensure that the application can run on various platforms (iOS, Android, web) using responsive design and platform-agnostic technologies (e.g., React Native).
-Containerization: Use Docker for deploying the application, making it easier to run in different environments without compatibility issues.
-Reliability
-Uptime: Aim for 99.9% uptime to ensure the application is consistently available to users.
-Error Handling: Implement robust error logging and monitoring to detect issues in real-time, along with user-friendly error messages to enhance user experience.
-Usability
-User Interface Design: Focus on an intuitive UI with clear navigation, ensuring users can easily access features like posting, commenting, and messaging.
-Accessibility: Follow WCAG guidelines to ensure the application is accessible to users with disabilities, including screen reader support and keyboard navigation.
-Performance
-Response Time: Aim for a maximum response time of 2 seconds for loading feeds and images to enhance user experience.
-Throughput: Design the system to handle at least 10,000 concurrent users with minimal latency.
-Optimization: Utilize content delivery networks (CDNs) for faster media loading and optimize database queries to reduce load times.
+The Instagram Competitor will feature an intuitive user interface, robust back-end architecture, and seamless integration with third-party services like cloud storage and push notifications. The system will be scalable to accommodate a growing user base, reliable with minimal downtime, and secure to protect user data and privacy.
 
 ---
+
+## 2. User Requirements
+
+### 2.1 Functional Requirements
+
+#### **User Authentication**
+
+- **Sign-Up**: Users can register using their email address, phone number, or third-party login providers like Google or Facebook.
+- **Login**: Secure login with email/phone and password or third-party accounts.
+- **Password Recovery**: Users can reset their password through email or SMS verification.
+
+#### **Profile Management**
+
+- Users can create and update personal profiles, including:
+  - Profile photo
+  - Username
+  - Bio and contact details
+- Privacy settings to control visibility (public/private).
+
+#### **Content Sharing**
+
+- Users can:
+  - Upload and share photos and videos with captions and optional hashtags.
+  - Edit posts after uploading (captions and tags).
+  - Apply filters and basic edits to photos before posting.
+  - Add geotags to posts for location tagging.
+
+#### **Likes, Comments, and Sharing**
+
+- Users can like posts and view the like count.
+- Add and delete comments on posts.
+- Share posts to stories or direct messages.
+
+#### **Story Creation**
+
+- Users can:
+  - Upload photos/videos as stories with text, stickers, or filters.
+  - View who has seen their stories.
+  - Remove stories before the 24-hour expiration.
+
+#### **Search and Explore**
+
+- Search for users, hashtags, and locations.
+- Explore page showing trending posts and suggested users.
+
+#### **Following and Followers**
+
+- Users can:
+  - Follow/unfollow accounts.
+  - View their follower and following lists.
+  - Receive notifications for new followers.
+
+#### **Direct Messaging**
+
+- One-on-one and group messaging with the ability to:
+  - Send text, emojis, photos, and videos.
+  - View message read status.
+  - Delete messages.
+
+#### **Notifications**
+
+- Push and in-app notifications for:
+  - Likes, comments, and shares on posts.
+  - New followers.
+  - Story views.
+  - Direct messages.
+
+---
+
+### 2.2 Non-Functional Requirements
+
+#### **Security**
+
+- Use secure protocols (HTTPS) and data encryption (AES-256).
+- Implement OAuth 2.0 for authentication.
+- Protect against SQL injection, XSS, and other vulnerabilities.
+
+#### **Performance**
+
+- Ensure sub-second response times for most interactions.
+- Handle up to 10,000 concurrent users during peak traffic.
+
+#### **Scalability**
+
+- Support horizontal scaling to accommodate a growing user base and content uploads.
+- Efficient handling of media storage and retrieval through a Content Delivery Network (CDN).
+
+#### **Usability**
+
+- Intuitive interface with minimal learning curve.
+- Support for accessibility features, including screen readers and high-contrast modes.
+
+#### **Reliability**
+
+- Ensure 99.9% uptime with robust error handling and recovery mechanisms.
+- Regular data backups to prevent data loss.
+
+---
+
+## 3. System Requirements
+
+### 3.1 Platform Requirements
+
+- **Web Interface**: Accessible through all major browsers (Chrome, Firefox, Safari, Edge).
+- **Mobile Interface**: Native or hybrid mobile apps for Android and iOS.
+
+### 3.2 Hardware and Software Requirements
+
+#### **Client-Side**
+
+- Web-enabled devices with a modern browser.
+- Mobile devices running Android 8.0+ or iOS 12.0+.
+
+#### **Server-Side**
+
+- Cloud-hosted backend (e.g., AWS, Google Cloud).
+- Database: Relational database for metadata (e.g., PostgreSQL) and NoSQL for scalable storage (e.g., MongoDB).
+- Storage: Cloud-based media storage with CDN integration.
+
+---
+
+## 4. User Scenarios
+
+### **Scenario 1: User Registration**
+
+- A new user registers with their email and sets up a profile.
+- They receive a verification email to confirm their account.
+
+### **Scenario 2: Sharing Content**
+
+- A user uploads a photo, applies a filter, and shares it with a caption.
+- Followers see the post on their feed and interact with it.
+
+### **Scenario 3: Discovering Content**
+
+- A user navigates to the Explore page, views trending posts, and follows a suggested user.
+
+### **Scenario 4: Messaging a Friend**
+
+- Two users exchange direct messages, sharing photos and videos.
+
+### **Scenario 5: Story Sharing**
+
+- A user posts a story of their vacation, adding stickers and location tags.
+
+---
+
+## 5. Design and Architecture
+
+### 5.1 System Architecture
+
+The platform follows a client-server architecture:
+
+- **Frontend**: Built with React.js for web and React Native for mobile apps.
+- **Backend**: Node.js server using Express framework.
+- **APIs**: RESTful APIs for interaction between frontend and backend.
+- **Database**: PostgreSQL for structured data and Firebase for NoSQL.
+
+### 5.2 Data Storage
+
+- **Media**: Stored on cloud storage (e.g., AWS S3) with CDN for fast delivery.
+- **Database**: Handles user accounts, posts, comments, likes, and messaging.
+
+### 5.3 API Features
+
+- **Authentication APIs**: Manage login and sign-up processes.
+- **Post APIs**: Handle uploads, likes, and comments.
+- **Messaging APIs**: Facilitate real-time messaging.
+
+---
+
+## 6. Testing and Validation
+
+### 6.1 Functional Testing
+
+- Validate all functionalities such as post sharing, messaging, and notifications.
+
+### 6.2 Performance Testing
+
+- Test under high traffic to ensure stability and performance.
+
+### 6.3 Security Testing
+
+- Conduct penetration testing to identify vulnerabilities.
+
+### 6.4 Usability Testing
+
+- Gather user feedback to refine the user interface and interactions.
+
+---
+
+## 7. Deployment and Maintenance
+
+### 7.1 Deployment Plan
+
+- Deploy in a phased manner with a staging environment.
+- Use CI/CD pipelines for seamless updates.
+
+### 7.2 Maintenance Plan
+
+- Provide regular updates for bug fixes and new features.
+- Monitor server health and performance.
+
+---
+
+## 8. Use Case Diagram
+
+### **Use Case 1: User Registration**
+
+- **Actors**: New User
+- **Description**: A user creates an account by entering their details and completing email verification.
+- **Preconditions**: None.
+- **Postconditions**: Account is created and verified.
+- **Main Flow**:
+  1. User opens the registration page.
+  2. User enters required details (name, email, password).
+  3. User submits the registration form.
+  4. System sends a verification email to the provided address.
+  5. User clicks the verification link to verify their email.
+  6. The system confirms email verification and activates the user account.
+- **Alternate Flow**:
+  - If the user provides invalid or incomplete information, the system displays an error message prompting for corrections.
+  - If the email is already in use, the system notifies the user to provide a different email address.
+
+---
+
+### **Use Case 2: Uploading Content**
+
+- **Actors**: Logged-in User
+- **Description**: A logged-in user uploads photos or videos to their profile and shares them with followers.
+- **Preconditions**: The user must be logged in to the platform.
+- **Postconditions**: The post is uploaded and visible to followers.
+- **Main Flow**:
+  1. User navigates to the "Upload" section.
+  2. User selects the photo or video they want to upload.
+  3. User adds captions or tags if desired.
+  4. User selects the visibility settings (public/private).
+  5. System processes the upload and adds the post to the user’s profile.
+  6. The post becomes visible to the user's followers or on their feed, depending on privacy settings.
+- **Alternate Flow**:
+  - If the file format is not supported, the system shows an error message and prompts the user to select a valid file format.
+  - If the upload fails due to connection issues, the system displays a retry option.
+
+---
+
+### **Use Case 3: Direct Messaging**
+
+- **Actors**: Two Users
+- **Description**: Two users exchange messages through text and media within a private conversation.
+- **Preconditions**: Both users must be registered and logged in to the platform.
+- **Postconditions**: Messages are saved and displayed in the chat history.
+- **Main Flow**:
+  1. User navigates to the direct messaging section.
+  2. User searches for the other user’s profile or selects from recent conversations.
+  3. User types and sends a message (text, image, or video).
+  4. System delivers the message to the recipient in real-time.
+  5. Both users can see the message in the conversation history.
+- **Alternate Flow**:
+  - If the message fails to send (due to connection issues), the system displays a retry option.
+  - If the recipient is offline, the system queues the message and delivers it once the recipient is back online.
+
+---
+
+## 9. Abuse Case Diagram
+
+---
+
+## 10. Error Case Diagram
+
+---
+
+## 11. Conclusion
+
+This Software Requirements Specification (SRS) document establishes a clear and comprehensive foundation for the development of an Instagram-like platform. It serves as a crucial reference point, ensuring alignment and transparency among all stakeholders. By outlining both functional and non-functional requirements in detail, this document provides a structured approach to the project, facilitating the creation of a user-centered, scalable, and high-performance solution.
