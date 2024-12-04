@@ -6,8 +6,6 @@
 
 # Team Composition
 
-### Team Members
-
 | Name | Branch | Roll Number | Contact Information | GitHub Profile |
 |------|--------|-------------|---------------------|----------------|
 | Om Swami | Information Technology | LIT2023002 | omswami2004@gmail.com | [@mrimmortal09](https://github.com/mrimmortal09) |
