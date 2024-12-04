@@ -2,9 +2,9 @@
 
 # Testing Documentation
 
-This test documentation outlines the testing approach and strategy for ***Instagram Competitor***, a social media platform designed to compete with Instagram. 
+This test documentation outlines the testing approach and strategy for ***Pixello***, a social media platform designed to compete with Instagram. 
 
-The purpose of this documentation is to ensure that ***Instagram Competitor*** meets the required functionality, performance, and security standards, providing a seamless and 
+The purpose of this documentation is to ensure that ***Pixello*** meets the required functionality, performance, and security standards, providing a seamless and 
 engaging user experience. This documentation will guide the testing process, covering various aspects of the application, including user registration, login, 
 posting, commenting, liking, and sharing, as well as security and performance features.
 
@@ -1853,6 +1853,6 @@ The testing environment will consist of:
 <br/>
 
 <div align="center">
-Instagram Competitor Testing, <br/>
+Pixello Testing, <br/>
 IEEE-829-2008, Clause 5
 </div>
