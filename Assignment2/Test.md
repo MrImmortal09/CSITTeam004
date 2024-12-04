@@ -16,37 +16,43 @@ posting, commenting, liking, and sharing, as well as security and performance fe
 
 <br/>
 
-# Content
+## Table of Contents
 
-1. [Test Plan: User account management](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-user-account-management)<br/>
-   1.1 [User Registration](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-user-registration)<br/>
-   1.2 [Login](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-user-login)<br/>
-   1.3 [Password Recovery](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-password-recovery)<br/>
-   1.4 [Account Deletion](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-account-deletion)<br/>
-   1.5 [Profile Management](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-account-deletion)<br/>
-2. [Test Plan: Posting and Sharing](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-posting-and-sharing)<br/>
-   2.1 [Image/Video Posting](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-imagevideo-posting)<br/>
-   2.2 [Caption Editing](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-caption-editing)<br/>
-   2.3 [Tagging Users](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-tagging-users)<br/>
-   2.4 [Location Tagging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-location-tagging)<br/>
-   2.5 [Sharing Posts](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-sharing-posting)<br/>
-3. [Test Plan: Feed and Discovery](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-feed-and-discovery)<br/>
-   3.1 [Feed Loading](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-feed-loading)<br/>
-   3.2 [Post Rendering](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-post-rendering)<br/>
-   3.3 [Hashtag Search](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-hashtag-search)<br/>
-   3.4 [User Search](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-user-search)<br/>
-   3.5 [Discovery Page](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-discovery-page)<br/>
-4. [Test Plan: Interactions and Notification](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-feed-and-discovery)<br/>
-   4.1 [Liking Posts](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-liking-posts)<br/>
-   4.2 [Commenting](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-commenting-on-posts)<br/>
-   4.3 [Replying to Comments](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-replying-on-comments)<br/>
-   4.4 [Notification](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-notifications)<br/>
-   4.5 [Follow](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-follow-an-user)<br/>
-   4.6 [Unfollow](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#6-unfollow)<br/>
-6. [Additional Features](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-feed-and-discovery)<br/>
-   6.1 [Stories](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-stories)<br/>
-   6.2 [Reels](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-reels)<br/>
-   6.3 [Direct Messaging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-direct-messaging)<br/>
+### 1. User Account Management
+1. [User Registration](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-user-account-management)
+2. [Login](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-user-login)
+3. [Password Recovery](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-password-recovery)
+4. [Account Deletion](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-account-deletion)
+5. [Profile Management](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-account-deletion)
+
+### 2. Posting and Sharing
+1. [Image/Video Posting](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-imagevideo-posting)
+2. [Caption Editing](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-caption-editing)
+3. [Tagging Users](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-tagging-users)
+4. [Location Tagging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-location-tagging)
+5. [Sharing Posts](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-sharing-posting)
+
+### 3. Feed and Discovery
+1. [Feed Loading](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-feed-loading)
+2. [Post Rendering](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-post-rendering)
+3. [Hashtag Search](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-hashtag-search)
+4. [User Search](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-user-search)
+5. [Discovery Page](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-discovery-page)
+
+### 4. Interactions and Notifications
+1. [Liking Posts](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-liking-posts)
+2. [Commenting](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-commenting-on-posts)
+3. [Replying to Comments](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-replying-on-comments)
+4. [Notifications](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-notifications)
+5. [Follow](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-follow-an-user)
+6. [Unfollow](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#6-unfollow)
+
+### 5. Additional Features
+1. [Stories](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-stories)
+2. [Reels](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-reels)
+3. [Direct Messaging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-direct-messaging)
+
+*Note: All links point to respective GitHub repository sections*
 
 <br/>
 
