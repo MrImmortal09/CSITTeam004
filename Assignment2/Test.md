@@ -66,11 +66,9 @@ posting, commenting, liking, and sharing, as well as security and performance fe
 ### **1. User registration**
 
 **Test Plan Identifier**
-
 TP-REG-001
 
 **Test Plan Introduction**
-
 This test plan outlines of the testing approach and strategy for the registration feature of the Instagram clone project. The purpose of this test plan is to ensure 
 that the registration feature meets the required functionality, performance, and security standards.
 
