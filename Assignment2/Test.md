@@ -52,7 +52,7 @@ posting, commenting, liking, and sharing, as well as security and performance fe
 2. [Reels](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-reels)
 3. [Direct Messaging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-direct-messaging)
 
-*Note: All links point to respective GitHub repository sections*
+*Note: All links point to respective test sections.*
 
 <br/>
 
