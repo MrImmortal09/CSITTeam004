@@ -1,9 +1,14 @@
-# Testing documentation
+<div align="center">
+
+# Testing Documentation
 
 This test documentation outlines the testing approach and strategy for ***Instagram Competitor***, a social media platform designed to compete with Instagram. 
+
 The purpose of this documentation is to ensure that ***Instagram Competitor*** meets the required functionality, performance, and security standards, providing a seamless and 
 engaging user experience. This documentation will guide the testing process, covering various aspects of the application, including user registration, login, 
 posting, commenting, liking, and sharing, as well as security and performance features.
+
+</div>
 
 <br/>
 
@@ -14,34 +19,34 @@ posting, commenting, liking, and sharing, as well as security and performance fe
 # Content
 
 1. [Test Plan: User account management](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-user-account-management)<br/>
-   1.1 User Registration<br/>
-   1.2 Login<br/>
-   1.3 Password Recovery<br/>
-   1.4 Account Deletion<br/>
-   1.5 Profile Management]()<br/>
+   1.1 [User Registration](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-user-registration)<br/>
+   1.2 [Login](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-user-login)<br/>
+   1.3 [Password Recovery](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-password-recovery)<br/>
+   1.4 [Account Deletion](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-account-deletion)<br/>
+   1.5 [Profile Management](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-account-deletion)<br/>
 2. [Test Plan: Posting and Sharing](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-posting-and-sharing)<br/>
-   2.1 Image/Video Posting<br/>
-   2.2 Caption Editing<br/>
-   2.3 Tagging Users<br/>
-   2.4 Location Tagging<br/>
-   2.5 Sharing Posts<br/>
+   2.1 [Image/Video Posting](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-imagevideo-posting)<br/>
+   2.2 [Caption Editing](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-caption-editing)<br/>
+   2.3 [Tagging Users](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-tagging-users)<br/>
+   2.4 [Location Tagging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-location-tagging)<br/>
+   2.5 [Sharing Posts](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-sharing-posting)<br/>
 3. [Test Plan: Feed and Discovery](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-feed-and-discovery)<br/>
-   3.1 Feed Loading<br/>
-   3.2 Post Rendering<br/>
-   3.3 Hashtag Search<br/>
-   3.4 User Search<br/>
-   3.5 Discovery Page<br/>
+   3.1 [Feed Loading](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-feed-loading)<br/>
+   3.2 [Post Rendering](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-post-rendering)<br/>
+   3.3 [Hashtag Search](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-hashtag-search)<br/>
+   3.4 [User Search](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-user-search)<br/>
+   3.5 [Discovery Page](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-discovery-page)<br/>
 4. [Test Plan: Interactions and Notification](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-feed-and-discovery)<br/>
-   4.1 Liking Posts<br/>
-   4.2 Commenting<br/>
-   4.3 Replying to Comments<br/>
-   4.4 Notification<br/>
-   4.5 Follow<br/>
-   4.6 Unfollow<br/>
+   4.1 [Liking Posts](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-liking-posts)<br/>
+   4.2 [Commenting](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-commenting-on-posts)<br/>
+   4.3 [Replying to Comments](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-replying-on-comments)<br/>
+   4.4 [Notification](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-notifications)<br/>
+   4.5 [Follow](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-follow-an-user)<br/>
+   4.6 [Unfollow](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#6-unfollow)<br/>
 6. [Additional Features](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-feed-and-discovery)<br/>
-   6.1 Stories<br/>
-   6.2 Reels<br/>
-   6.3 Direct Messaging<br/>
+   6.1 [Stories](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-stories)<br/>
+   6.2 [Reels](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-reels)<br/>
+   6.3 [Direct Messaging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-direct-messaging)<br/>
 
 <br/>
 
@@ -52,7 +57,7 @@ posting, commenting, liking, and sharing, as well as security and performance fe
 
 ## Test Plan: User account management
 
-**1. User registration**
+### **1. User registration**
 
 **Test Plan Identifier**
 
@@ -152,7 +157,7 @@ The testing environment will consist of:
 
 <br/>
 
-**2. User login**
+### **2. User login**
 
 **Test Plan Identifier**
 TP-LOG-001
@@ -228,7 +233,7 @@ The testing environment will consist of:
 
 <br/>
 
-**3. Password recovery**
+### **3. Password recovery**
 
 **Test Plan Identifier**
 TP-PWD-001
@@ -304,7 +309,7 @@ The testing environment will consist of:
 
 <br/>
 
-**4. Account deletion**
+### **4. Account deletion**
 
 **Test Plan Identifier**
 TP-DEL-001
@@ -386,7 +391,7 @@ The testing environment will consist of:
 
 <br/>
 
-**5. Profile Management**
+### **5. Profile Management**
 
 **Test Plan Identifier**
 TP-PRO-001
@@ -467,7 +472,7 @@ The testing environment will consist of:
 
 ## Test Plan: Posting and Sharing
 
-**1. Image/video posting**
+### **1. Image/video posting**
 
 **Test Plan Identifier**
 TP-IMG-001
@@ -547,7 +552,7 @@ The testing environment will consist of:
 
 <br/>
 
-**2. Caption editing**
+### **2. Caption editing**
 
 **Test Plan Identifier**
 TP-CAP-001
@@ -617,7 +622,7 @@ The testing environment will consist of:
 
 <br/>
 
-**3. Tagging users**
+### **3. Tagging users**
 
 **Test Plan Identifier**
 TP-TAG-001
@@ -686,7 +691,7 @@ The testing environment will consist of:
 
 <br/>
 
-4. Location tagging
+### **4. Location tagging**
 
 **Test Plan Identifier**
 TP-LOC-001
@@ -756,7 +761,7 @@ The testing environment will consist of:
 
 <br/>
 
-**5. Sharing posting**
+### **5. Sharing posting**
 
 **Test Plan Identifier**
 TP-SHR-001
@@ -829,7 +834,7 @@ The testing environment will consist of:
 
 ## Test Plan: Feed and Discovery
 
-**1. Feed loading**
+### **1. Feed loading**
 
 **Test Plan Identifier**
 TP-FEED-001
@@ -896,7 +901,7 @@ The testing environment will consist of:
 
 <br/>
 
-**2. Post rendering**
+### **2. Post rendering**
 
 **Test Plan Identifier**
 TP-POST-001
@@ -964,7 +969,7 @@ The testing environment will consist of:
 
 <br/>
 
-**3. hashtag search**
+### **3. hashtag search**
 
 **Test Plan Identifier**
 TP-HASH-001
@@ -1039,7 +1044,7 @@ The testing environment will consist of:
 
 <br/>
 
-**4. User search**
+### **4. User search**
 
 **Test Plan Identifier**
 TP-USR-001
@@ -1114,7 +1119,7 @@ The testing environment will consist of:
 
 <br/>
 
-**5. Discovery page**
+### **5. Discovery page**
 
 **Test Plan Identifier**
 TP-DIS-001
@@ -1189,7 +1194,7 @@ The testing environment will consist of:
 
 ## Test Plan: Interactions and Notification
 
-**1. Liking posts**
+### **1. Liking posts**
 
 **Test Plan Identifier**
 TP-LIKE-001
@@ -1256,7 +1261,7 @@ The testing environment will consist of:
 
 <br/>
 
-**2. Commenting on posts**
+### **2. Commenting on posts**
 
 **Test Plan Identifier**
 TP-COMM-001
@@ -1329,7 +1334,7 @@ The testing environment will consist of:
 
 <br/>
 
-**3. Replying on comments**
+### **3. Replying on comments**
 
 **Test Plan Identifier**
 TP-REPLY-001
@@ -1402,7 +1407,7 @@ The testing environment will consist of:
 
 <br/>
 
-**4. Notifications**
+### **4. Notifications**
 
 **Test Plan Identifier**
 TP-NOTIF-001
@@ -1474,7 +1479,7 @@ The testing environment will consist of:
 
 <br/>
 
-**5. Follow an user**
+### **5. Follow an user**
 
 **Test Plan Identifier**
 TP-FOLLOW-001
@@ -1542,7 +1547,7 @@ The testing environment will consist of:
 
 <br/>
 
-**6. Unfollow**
+### **6. Unfollow**
 
 **Test Plan Identifier**
 TP-UNFOLLOW-001
@@ -1612,7 +1617,7 @@ The testing environment will consist of:
 
 ## Additional Features
 
-**1. Stories**
+### **1. Stories**
 
 **Test Plan Identifier**
 TP-STORIES-001
@@ -1684,7 +1689,7 @@ The testing environment will consist of:
 
 <br/>
 
-**2. Reels**
+### **2. Reels**
 
 **Test Plan Identifier**
 TP-REELS-001
@@ -1761,7 +1766,7 @@ The testing environment will consist of:
 
 <br/>
 
-**3. Direct messaging**
+### **3. Direct messaging**
 
 **Test Plan Identifier**
 TP-DM-001
@@ -1841,5 +1846,7 @@ The testing environment will consist of:
 <br/>
 <br/>
 
- Instagram Competitor, <br/>
- *IEEE-829-2008*
+<div align="center">
+Instagram Competitor Testing, <br/>
+IEEE-829-2008, Clause 5
+</div>
