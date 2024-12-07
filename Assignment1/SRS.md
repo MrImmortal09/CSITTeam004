@@ -30,13 +30,13 @@ Pixello will feature an intuitive user interface, robust back-end architecture, 
 
 ### 2.1 Functional Requirements
 
-#### **User Authentication**
+#### 2.1.1 **User Authentication**
 
 - **Sign-Up**: Users can register using their email address, phone number, or third-party login providers like Google or Facebook.
 - **Login**: Secure login with email/phone and password or third-party accounts.
 - **Password Recovery**: Users can reset their password through email or SMS verification.
 
-#### **Profile Management**
+#### 2.1.2 **Profile Management**
 
 - Users can create and update personal profiles, including:
   - Profile photo
@@ -44,7 +44,7 @@ Pixello will feature an intuitive user interface, robust back-end architecture, 
   - Bio and contact details
 - Privacy settings to control visibility (public/private).
 
-#### **Content Sharing**
+#### 2.1.3 **Content Sharing**
 
 - Users can:
   - Upload and share photos and videos with captions and optional hashtags.
@@ -52,39 +52,39 @@ Pixello will feature an intuitive user interface, robust back-end architecture, 
   - Apply filters and basic edits to photos before posting.
   - Add geotags to posts for location tagging.
 
-#### **Likes, Comments, and Sharing**
+#### 2.1.4 **Likes, Comments, and Sharing**
 
 - Users can like posts and view the like count.
 - Add and delete comments on posts.
 - Share posts to stories or direct messages.
 
-#### **Story Creation**
+#### 2.1.5 **Story Creation**
 
 - Users can:
   - Upload photos/videos as stories with text, stickers, or filters.
   - View who has seen their stories.
   - Remove stories before the 24-hour expiration.
 
-#### **Search and Explore**
+#### 2.1.6 **Search and Explore**
 
 - Search for users, hashtags, and locations.
 - Explore page showing trending posts and suggested users.
 
-#### **Following and Followers**
+#### 2.1.7 **Following and Followers**
 
 - Users can:
   - Follow/unfollow accounts.
   - View their follower and following lists.
   - Receive notifications for new followers.
 
-#### **Direct Messaging**
+#### 2.1.8 **Direct Messaging**
 
 - One-on-one and group messaging with the ability to:
   - Send text, emojis, photos, and videos.
   - View message read status.
   - Delete messages.
 
-#### **Notifications**
+#### 2.1.9 **Notifications**
 
 - Push and in-app notifications for:
   - Likes, comments, and shares on posts.
@@ -96,28 +96,28 @@ Pixello will feature an intuitive user interface, robust back-end architecture, 
 
 ### 2.2 Non-Functional Requirements
 
-#### **Security**
+#### 2.2.1 **Security**
 
 - Use secure protocols (HTTPS) and data encryption (AES-256).
 - Implement OAuth 2.0 for authentication.
 - Protect against SQL injection, XSS, and other vulnerabilities.
 
-#### **Performance**
+#### 2.2.2 **Performance**
 
 - Ensure sub-second response times for most interactions.
 - Handle up to 10,000 concurrent users during peak traffic.
 
-#### **Scalability**
+#### 2.2.3 **Scalability**
 
 - Support horizontal scaling to accommodate a growing user base and content uploads.
 - Efficient handling of media storage and retrieval through a Content Delivery Network (CDN).
 
-#### **Usability**
+#### 2.2.4 **Usability**
 
 - Intuitive interface with minimal learning curve.
 - Support for accessibility features, including screen readers and high-contrast modes.
 
-#### **Reliability**
+#### 2.2.5 **Reliability**
 
 - Ensure 99.9% uptime with robust error handling and recovery mechanisms.
 - Regular data backups to prevent data loss.
