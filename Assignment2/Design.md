@@ -80,17 +80,17 @@ The system architecture is modular and comprises:
 - *Database Layer*: Persistent storage for user, post, and messaging data.
 
 ### 3.2 Decomposition Description
-- **User Interface Module**
+- 3.2.1 **User Interface Module**
   - Login and Registration
   - Feed Viewer
   - Profile Page
   
-- **Backend Module**
+- 3.2.2 **Backend Module**
   - User Management
   - Content Delivery
   - Recommendation Algorithms
   
-- **Messaging Module**
+- 3.2.3 **Messaging Module**
   - Real-time Messaging
   - Multimedia Sharing
 
