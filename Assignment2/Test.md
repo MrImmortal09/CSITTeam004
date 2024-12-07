@@ -19,38 +19,38 @@ posting, commenting, liking, and sharing, as well as security and performance fe
 ## Table of Contents
 
 ### 1. User Account Management
-1. [User Registration](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-user-account-management)
-2. [Login](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-user-login)
-3. [Password Recovery](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-password-recovery)
-4. [Account Deletion](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-account-deletion)
-5. [Profile Management](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-account-deletion)
+1.1 [User Registration](https://github.com/IIITLucknowSWEngg/CSITTeam004/new/main/Assignment2#test-plan-user-account-management)<br/>
+1.2 [Login](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-user-login)<br/>
+1.3 [Password Recovery](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-password-recovery)<br/>
+1.4 [Account Deletion](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-account-deletion)<br/>
+1.5 [Profile Management](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-account-deletion)<br/>
 
 ### 2. Posting and Sharing
-1. [Image/Video Posting](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-imagevideo-posting)
-2. [Caption Editing](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-caption-editing)
-3. [Tagging Users](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-tagging-users)
-4. [Location Tagging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-location-tagging)
-5. [Sharing Posts](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-sharing-posting)
+2.1 [Image/Video Posting](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-imagevideo-posting)<br/>
+2.2 [Caption Editing](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-caption-editing)<br/>
+2.3 [Tagging Users](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-tagging-users)<br/>
+2.4 [Location Tagging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-location-tagging)<br/>
+2.5 [Sharing Posts](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-sharing-posting)<br/>
 
 ### 3. Feed and Discovery
-1. [Feed Loading](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-feed-loading)
-2. [Post Rendering](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-post-rendering)
-3. [Hashtag Search](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-hashtag-search)
-4. [User Search](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-user-search)
-5. [Discovery Page](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-discovery-page)
+3.1 [Feed Loading](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-feed-loading)<br/>
+3.2 [Post Rendering](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-post-rendering)<br/>
+3.3 [Hashtag Search](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-hashtag-search)<br/>
+3.4 [User Search](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-user-search)<br/>
+3.5 [Discovery Page](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-discovery-page)<br/>
 
 ### 4. Interactions and Notifications
-1. [Liking Posts](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-liking-posts)
-2. [Commenting](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-commenting-on-posts)
-3. [Replying to Comments](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-replying-on-comments)
-4. [Notifications](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-notifications)
-5. [Follow](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-follow-an-user)
-6. [Unfollow](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#6-unfollow)
+4.1 [Liking Posts](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-liking-posts)<br/>
+4.2 [Commenting](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-commenting-on-posts)<br/>
+4.3 [Replying to Comments](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-replying-on-comments)<br/>
+4.4 [Notifications](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#4-notifications)<br/>
+4.5 [Follow](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#5-follow-an-user)<br/>
+4.6 [Unfollow](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#6-unfollow)<br/>
 
 ### 5. Additional Features
-1. [Stories](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-stories)
-2. [Reels](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-reels)
-3. [Direct Messaging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-direct-messaging)
+5.1 [Stories](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#1-stories)<br/>
+5.2 [Reels](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#2-reels)<br/>
+5.3 [Direct Messaging](https://github.com/IIITLucknowSWEngg/CSITTeam004/edit/main/Assignment2/Test.md#3-direct-messaging)<br/>
 
 *Note: All links point to respective test sections.*
 
@@ -61,9 +61,9 @@ posting, commenting, liking, and sharing, as well as security and performance fe
 <br/>
 
 
-## Test Plan: User account management
+## Test Plan: 1. User account management
 
-### **1. User registration**
+### **1.1 User registration**
 
 **Test Plan Identifier**
 TP-REG-001
@@ -161,7 +161,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **2. User login**
+### **1.2 User login**
 
 **Test Plan Identifier**
 TP-LOG-001
@@ -237,7 +237,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **3. Password recovery**
+### **1.3 Password recovery**
 
 **Test Plan Identifier**
 TP-PWD-001
@@ -313,7 +313,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **4. Account deletion**
+### **1.4 Account deletion**
 
 **Test Plan Identifier**
 TP-DEL-001
@@ -395,7 +395,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **5. Profile Management**
+### **1.5 Profile Management**
 
 **Test Plan Identifier**
 TP-PRO-001
@@ -474,9 +474,9 @@ The testing environment will consist of:
 <br/>
 <br/>
 
-## Test Plan: Posting and Sharing
+## Test Plan: 2. Posting and Sharing
 
-### **1. Image/video posting**
+### **2.1 Image/video posting**
 
 **Test Plan Identifier**
 TP-IMG-001
@@ -556,7 +556,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **2. Caption editing**
+### **2.2 Caption editing**
 
 **Test Plan Identifier**
 TP-CAP-001
@@ -626,7 +626,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **3. Tagging users**
+### **2.3 Tagging users**
 
 **Test Plan Identifier**
 TP-TAG-001
@@ -695,7 +695,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **4. Location tagging**
+### **2.4 Location tagging**
 
 **Test Plan Identifier**
 TP-LOC-001
@@ -765,7 +765,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **5. Sharing posting**
+### **2.5 Sharing posting**
 
 **Test Plan Identifier**
 TP-SHR-001
@@ -836,9 +836,9 @@ The testing environment will consist of:
 <br/>
 <br/>
 
-## Test Plan: Feed and Discovery
+## Test Plan: 3. Feed and Discovery
 
-### **1. Feed loading**
+### **3.1 Feed loading**
 
 **Test Plan Identifier**
 TP-FEED-001
@@ -905,7 +905,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **2. Post rendering**
+### **3.2 Post rendering**
 
 **Test Plan Identifier**
 TP-POST-001
@@ -973,7 +973,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **3. hashtag search**
+### **3.3 hashtag search**
 
 **Test Plan Identifier**
 TP-HASH-001
@@ -1048,7 +1048,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **4. User search**
+### **3.4 User search**
 
 **Test Plan Identifier**
 TP-USR-001
@@ -1123,7 +1123,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **5. Discovery page**
+### **3.5 Discovery page**
 
 **Test Plan Identifier**
 TP-DIS-001
@@ -1196,9 +1196,9 @@ The testing environment will consist of:
 <br/>
 <br/>
 
-## Test Plan: Interactions and Notification
+## Test Plan: 4. Interactions and Notification
 
-### **1. Liking posts**
+### **4.1 Liking posts**
 
 **Test Plan Identifier**
 TP-LIKE-001
@@ -1265,7 +1265,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **2. Commenting on posts**
+### **4.2 Commenting on posts**
 
 **Test Plan Identifier**
 TP-COMM-001
@@ -1338,7 +1338,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **3. Replying on comments**
+### **4.3 Replying on comments**
 
 **Test Plan Identifier**
 TP-REPLY-001
@@ -1411,7 +1411,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **4. Notifications**
+### **4.4 Notifications**
 
 **Test Plan Identifier**
 TP-NOTIF-001
@@ -1483,7 +1483,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **5. Follow an user**
+### **4.5 Follow an user**
 
 **Test Plan Identifier**
 TP-FOLLOW-001
@@ -1551,7 +1551,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **6. Unfollow**
+### **4.6 Unfollow**
 
 **Test Plan Identifier**
 TP-UNFOLLOW-001
@@ -1619,9 +1619,9 @@ The testing environment will consist of:
 <br/>
 <br/>
 
-## Additional Features
+## 5. Additional Features
 
-### **1. Stories**
+### **5.1 Stories**
 
 **Test Plan Identifier**
 TP-STORIES-001
@@ -1693,7 +1693,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **2. Reels**
+### **5.2 Reels**
 
 **Test Plan Identifier**
 TP-REELS-001
@@ -1770,7 +1770,7 @@ The testing environment will consist of:
 
 <br/>
 
-### **3. Direct messaging**
+### **5.3 Direct messaging**
 
 **Test Plan Identifier**
 TP-DM-001
