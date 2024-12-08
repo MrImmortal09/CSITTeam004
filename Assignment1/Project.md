@@ -1,6 +1,8 @@
+<div align="center" >
+
 # Pixello
 
-This project is an Pixello, a replication of the popular social media platform for sharing photos and videos. Built using [ReactJs + VueJs, NodeJs, ExpressJs, MongoDB, SocketIO], it aims to include the core functionalities of Instagram, such as user authentication, photo sharing, liking, commenting, and following other users.
+**This project, Pixello, is a replication of a popular social media platform for sharing photos and videos. Built using [ReactJs, VueJs, NodeJs, ExpressJs, MongoDB, and Socket.IO], it aims to incorporate the core functionalities of Instagram, including user authentication, photo sharing, liking, commenting, and following other users.**
 
 ---
 
@@ -9,7 +11,7 @@ This project is an Pixello, a replication of the popular social media platform f
 ### Project Name: Pixello
 
 ### GitHub Issue: [Record of Approval](https://github.com/IIITLucknowSWEngg/Assignment/issues/2)
----
+</div>
 
 
 ### **1. Scope of the Project**
