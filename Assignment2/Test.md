@@ -2,13 +2,27 @@
 
 # Testing Documentation
 
-This test documentation outlines the testing approach and strategy for ***Pixello***, a social media platform designed to compete with Instagram. 
+**This test documentation outlines the testing approach and strategy for ***Pixello***, a social media platform designed to compete with Instagram.** 
 
-The purpose of this documentation is to ensure that ***Pixello*** meets the required functionality, performance, and security standards, providing a seamless and 
+**The purpose of this documentation is to ensure that ***Pixello*** meets the required functionality, performance, and security standards, providing a seamless and 
 engaging user experience. This documentation will guide the testing process, covering various aspects of the application, including user registration, login, 
-posting, commenting, liking, and sharing, as well as security and performance features.
+posting, commenting, liking, and sharing, as well as security and performance features.**
 
 </div>
+
+<br/>
+
+---
+
+<br/>
+<br/>
+
+*Note: All the test have been assumed to be performed in the following test environment:*
+- *Operating System: Windows 10 and aboce, Linux Ubuntu 22.04 and above, MacOS 14.0 and above*
+- *Browser: Google Chrome 117 and above, MS Edge 101 and above, Safari*
+- *Database: MongoDB*
+- *API: RESTful API*
+
 
 <br/>
 
@@ -144,21 +158,6 @@ describe('Registration API', () => {
 });
 ```
 
-**Test Environment**
-
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **1.2 User login**
@@ -223,17 +222,6 @@ describe('Login API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
 
 <br/>
 
@@ -297,19 +285,6 @@ describe('Password Recovery API', () => {
   });
 });
 ```
-
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
 
 <br/>
 
@@ -380,19 +355,6 @@ describe('Account Deletion API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **1.5 Profile Management**
@@ -458,20 +420,10 @@ describe('Profile Management API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
+
+***
+
 <br/>
 
 ## Test Plan: 2. Posting and Sharing
@@ -541,19 +493,6 @@ describe('Image/Video Posting API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **2.2 Caption editing**
@@ -611,19 +550,6 @@ describe('Caption Editing API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **2.3 Tagging users**
@@ -679,19 +605,6 @@ describe('Tagging Users API', () => {
   });
 });
 ```
-
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
 
 <br/>
 
@@ -750,19 +663,6 @@ describe('Location Tagging API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **2.5 Sharing posting**
@@ -820,20 +720,10 @@ describe('Sharing Posts API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
+
+***
+
 <br/>
 
 ## Test Plan: 3. Feed and Discovery
@@ -890,19 +780,6 @@ describe('Feed Loading API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **3.2 Post rendering**
@@ -957,19 +834,6 @@ describe('Post Rendering API', () => {
   });
 });
 ```
-
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
 
 <br/>
 
@@ -1033,19 +897,6 @@ describe('Hashtag Searching API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **3.4 User search**
@@ -1108,19 +959,6 @@ describe('User Search API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **3.5 Discovery page**
@@ -1180,21 +1018,12 @@ describe('Discovery Page', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
+<br/>
 
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
+***
 
 <br/>
-<br/>
+
 
 ## Test Plan: 4. Interactions and Notification
 
@@ -1249,19 +1078,6 @@ describe('Liking Post API', () => {
   });
 });
 ```
-
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
 
 <br/>
 
@@ -1323,19 +1139,6 @@ describe('Commenting API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **4.3 Replying on comments**
@@ -1396,19 +1199,6 @@ describe('Replying on Comments API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **4.4 Notifications**
@@ -1468,18 +1258,6 @@ describe('Notifications API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
 
 <br/>
 
@@ -1536,19 +1314,6 @@ describe('Follow API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
-
 <br/>
 
 ### **4.6 Unfollow**
@@ -1602,19 +1367,6 @@ describe('Unfollow API', () => {
   });
 });
 ```
-
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
 
 <br/>
 <br/>
@@ -1677,19 +1429,6 @@ describe('Stories API', () => {
   });
 });
 ```
-
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
 
 <br/>
 
@@ -1754,19 +1493,6 @@ describe('Reels API', () => {
   });
 });
 ````
-
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
 
 <br/>
 
@@ -1834,20 +1560,11 @@ describe('DMs API', () => {
 });
 ```
 
-**Test Environment**
-The testing environment will consist of:
-
-- Operating System: Windows 10
-- Browser: Google Chrome
-- Database: MySQL
-- API: RESTful API
-
-**Test Schedule**
-- Test planning: 1 day
-- Test execution: 3 days
-- Test reporting: 1 day
 
 <br/>
+
+---
+
 <br/>
 
 <div align="center">
