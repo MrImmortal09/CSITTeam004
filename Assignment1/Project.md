@@ -1,4 +1,4 @@
-# Instagram Clone
+# Pixello
 
 This project is an Instagram Clone, a replication of the popular social media platform for sharing photos and videos. Built using [ReactJs + VueJs, NodeJs, ExpressJs, MongoDB, SocketIO], it aims to include the core functionalities of Instagram, such as user authentication, photo sharing, liking, commenting, and following other users.
 
