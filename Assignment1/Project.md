@@ -6,7 +6,7 @@ This project is an Instagram Clone, a replication of the popular social media pl
 
 ## Project Information
 
-### Project Name: IPixello
+### Project Name: Pixello
 
 ### GitHub Issue: [Record of Approval](https://github.com/IIITLucknowSWEngg/Assignment/issues/2)
 ---
