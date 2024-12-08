@@ -1,0 +1,31 @@
+@startuml
+title Container Diagram - Pixello
+
+' Add primary containers
+rectangle "Mobile/Web App" as App <<User Interface>> #lightblue
+rectangle "API Gateway" as APIGateway <<API Gateway>> #lightgreen
+rectangle "Media Service" as MediaService <<Service>> #lightyellow
+rectangle "Feed Service" as FeedService <<Service>> #lightyellow
+rectangle "Chat Service" as ChatService <<Service>> #lightyellow
+rectangle "Analytics Service" as AnalyticsService <<Service>> #lightyellow
+
+' Database containers
+database "User Database" as UserDB <<Database>> #lightpink
+database "Media Database" as MediaDB <<Database>> #lightpink
+database "Feed Database" as FeedDB <<Database>> #lightpink
+
+' External services
+rectangle "Notification Service" as NotificationService <<External Service>> #lightgray
+
+' Relationships between containers
+App --> APIGateway : API Requests
+APIGateway --> MediaService : Upload Media
+APIGateway --> FeedService : Generate Feed
+APIGateway --> ChatService : Send/Receive Messages
+APIGateway --> AnalyticsService : Engagement Insights
+APIGateway --> NotificationService : Send Notifications
+
+MediaService --> MediaDB : Store Media
+FeedService --> FeedDB : Manage Feed Data
+AnalyticsService --> UserDB : Analyze User Data
+@enduml

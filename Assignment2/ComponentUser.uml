@@ -1,0 +1,22 @@
+@startuml
+' External Actor
+actor "User" as User
+
+' System Boundary: Pixello App
+package "Pixello App" {
+
+    ' Subsystems for User
+    rectangle "Authentication \nand Profile Management" as AuthSystem
+    rectangle "Photo and Video Upload \nand Sharing" as MediaSystem
+    rectangle "Feed Generation \nand Social Interactions" as FeedSystem
+    rectangle "Direct Messaging" as ChatSystem
+    rectangle "Analytics \nand Insights" as AnalyticsSystem
+}
+
+' Relationships between User and system components
+User --> AuthSystem : Sign Up/Login
+User --> MediaSystem : Upload Photos/Videos
+User --> FeedSystem : View/Interact with Feed
+User --> ChatSystem : Send/Receive Messages
+User --> AnalyticsSystem : View Engagement Insights
+@enduml

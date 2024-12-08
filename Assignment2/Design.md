@@ -32,10 +32,10 @@
 
 ## 1. Introduction
 ### 1.1 Purpose
-This document outlines the software design for an Instagram clone, detailing the architectural structure, data organization, and functional components required for development. It serves as a guide for developers and stakeholders to understand the application's design and functionality.
+This document outlines the software design for an Pixello, detailing the architectural structure, data organization, and functional components required for development. It serves as a guide for developers and stakeholders to understand the application's design and functionality.
 
 ### 1.2 Scope
-The Instagram clone is a social networking application that allows users to:
+The Pixello is a social networking application that allows users to:
 - Share photos and videos.
 - Interact through likes, comments, and following.
 - Engage in direct messaging.
@@ -67,7 +67,7 @@ This document is structured to provide:
 ---
 
 ## 2. System Overview
-The Instagram clone offers an interactive platform for users to connect, share, and explore. Core features include a multimedia feed, stories, and a direct messaging system. The design ensures a smooth user experience, prioritizing performance and scalability.
+The Pixello offers an interactive platform for users to connect, share, and explore. Core features include a multimedia feed, stories, and a direct messaging system. The design ensures a smooth user experience, prioritizing performance and scalability.
 
 ---
 

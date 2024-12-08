@@ -1,0 +1,35 @@
+@startuml
+title Deployment Diagram - Pixello
+
+node "User's Device" {
+    [Mobile/Web App] <<User Interface>>
+}
+
+node "Server" {
+    [API Gateway] <<API Gateway>>
+    [Media Service] <<Service>>
+    [Feed Service] <<Service>>
+    [Chat Service] <<Service>>
+    [Analytics Service] <<Service>>
+}
+
+node "Database Server" {
+    database "User Database" as UserDB
+    database "Media Database" as MediaDB
+    database "Feed Database" as FeedDB
+}
+
+cloud "External Services" {
+    [Notification Service] <<External Service>>
+}
+
+' Connections
+[Mobile/Web App] --> [API Gateway] : API Calls
+[API Gateway] --> [Media Service] : Handle Media
+[API Gateway] --> [Feed Service] : Generate Feed
+[API Gateway] --> [Chat Service] : Manage Messages
+[API Gateway] --> [Analytics Service] : Analyze Engagement
+[Media Service] --> MediaDB : Store Media
+[Feed Service] --> FeedDB : Feed Data
+[Analytics Service] --> UserDB : User Data
+@enduml

@@ -1,4 +1,4 @@
-# Instagram Clone Architecture
+# Pixello Architecture
 ## 1. System Context Diagram
 
 ![initial](https://github.com/user-attachments/assets/10f289e7-4cf9-4175-af6b-eae8944b4657)
@@ -10,8 +10,8 @@
 actor "User" as User
 actor "Notification Service" as NotificationService
 
-' System Boundary: Instagram Clone App
-package "Instagram Clone App" {
+' System Boundary: Pixello App
+package "Pixello App" {
 
     ' Subsystems
     rectangle "User Authentication \nand Profile Management" as AuthSystem
@@ -42,7 +42,7 @@ The container diagram breaks down the system into high-level containers and thei
 
 ```
 @startuml
-title Container Diagram - Instagram Clone
+title Container Diagram - Pixello
 
 ' Add primary containers
 rectangle "Mobile/Web App" as App <<User Interface>> #lightblue
@@ -87,8 +87,8 @@ This diagram shows the system components and interactions from the user's perspe
 ' External Actor
 actor "User" as User
 
-' System Boundary: Instagram Clone App
-package "Instagram Clone App" {
+' System Boundary: Pixello App
+package "Pixello App" {
 
     ' Subsystems for User
     rectangle "Authentication \nand Profile Management" as AuthSystem
@@ -118,7 +118,7 @@ This diagram shows the system components and interactions from the admin's persp
 ' External Actor
 actor "Admin" as Admin
 
-' System Boundary: Instagram Clone Admin Panel
+' System Boundary: Pixello Admin Panel
 package "Admin Panel" {
 
     ' Subsystems for Admin
@@ -145,7 +145,7 @@ This diagram outlines the physical deployment of the system across servers, data
 
 ```
 @startuml
-title Deployment Diagram - Instagram Clone
+title Deployment Diagram - Pixello
 
 node "User's Device" {
     [Mobile/Web App] <<User Interface>>

@@ -69,7 +69,7 @@ posting, commenting, liking, and sharing, as well as security and performance fe
 TP-REG-001
 
 **Test Plan Introduction**
-This test plan outlines of the testing approach and strategy for the registration feature of the Instagram clone project. The purpose of this test plan is to ensure 
+This test plan outlines of the testing approach and strategy for the registration feature of the Pixello project. The purpose of this test plan is to ensure 
 that the registration feature meets the required functionality, performance, and security standards.
 
 **Test Items**
@@ -167,7 +167,7 @@ The testing environment will consist of:
 TP-LOG-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the user login feature of the Instagram clone project. The purpose of this test plan is to ensure that the user login feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the user login feature of the Pixello project. The purpose of this test plan is to ensure that the user login feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Login form
@@ -243,7 +243,7 @@ The testing environment will consist of:
 TP-PWD-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the password recovery feature of the Instagram clone project. The purpose of this test plan is to ensure that the password recovery feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the password recovery feature of the Pixello project. The purpose of this test plan is to ensure that the password recovery feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Password recovery form
@@ -319,7 +319,7 @@ The testing environment will consist of:
 TP-DEL-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the account deletion feature of the Instagram clone project. The purpose of this test plan is to ensure that the account deletion feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the account deletion feature of the Pixello project. The purpose of this test plan is to ensure that the account deletion feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Account deletion form
@@ -401,7 +401,7 @@ The testing environment will consist of:
 TP-PRO-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the profile management feature of the Instagram clone project. The purpose of this test plan is to ensure that the profile management feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the profile management feature of the Pixello project. The purpose of this test plan is to ensure that the profile management feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Profile page
@@ -482,7 +482,7 @@ The testing environment will consist of:
 TP-IMG-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the image/video posting feature of the Instagram clone project. The purpose of this test plan is to ensure that the image/video posting feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the image/video posting feature of the Pixello project. The purpose of this test plan is to ensure that the image/video posting feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Image/video upload form
@@ -562,7 +562,7 @@ The testing environment will consist of:
 TP-CAP-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the caption editing feature of the Instagram clone project. The purpose of this test plan is to ensure that the caption editing feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the caption editing feature of the Pixello project. The purpose of this test plan is to ensure that the caption editing feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Caption editing form
@@ -632,7 +632,7 @@ The testing environment will consist of:
 TP-TAG-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the tagging users feature of the Instagram clone project. The purpose of this test plan is to ensure that the tagging users feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the tagging users feature of the Pixello project. The purpose of this test plan is to ensure that the tagging users feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Tagging form
@@ -701,7 +701,7 @@ The testing environment will consist of:
 TP-LOC-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the location tagging feature of the Instagram clone project. The purpose of this test plan is to ensure that the location tagging feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the location tagging feature of the Pixello project. The purpose of this test plan is to ensure that the location tagging feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Location tagging form
@@ -771,7 +771,7 @@ The testing environment will consist of:
 TP-SHR-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the sharing posts feature of the Instagram clone project. The purpose of this test plan is to ensure that the sharing posts feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the sharing posts feature of the Pixello project. The purpose of this test plan is to ensure that the sharing posts feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Sharing post form
@@ -844,7 +844,7 @@ The testing environment will consist of:
 TP-FEED-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the feed loading feature of the Instagram clone project. The purpose of this test plan is to ensure that the feed loading feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the feed loading feature of the Pixello project. The purpose of this test plan is to ensure that the feed loading feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Feed loading mechanism
@@ -911,7 +911,7 @@ The testing environment will consist of:
 TP-POST-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the post rendering feature of the Instagram clone project. The purpose of this test plan is to ensure that the post rendering feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the post rendering feature of the Pixello project. The purpose of this test plan is to ensure that the post rendering feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Post rendering mechanism
@@ -979,7 +979,7 @@ The testing environment will consist of:
 TP-HASH-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the hashtag searching feature of the Instagram clone project. The purpose of this test plan is to ensure that the hashtag searching feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the hashtag searching feature of the Pixello project. The purpose of this test plan is to ensure that the hashtag searching feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Hashtag search form
@@ -1054,7 +1054,7 @@ The testing environment will consist of:
 TP-USR-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the user search feature of the Instagram clone project. The purpose of this test plan is to ensure that the user search feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the user search feature of the Pixello project. The purpose of this test plan is to ensure that the user search feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - User search form
@@ -1129,7 +1129,7 @@ The testing environment will consist of:
 TP-DIS-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the discovery page feature of the Instagram clone project. The purpose of this test plan is to ensure that the discovery page feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the discovery page feature of the Pixello project. The purpose of this test plan is to ensure that the discovery page feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Discovery page layout
@@ -1204,7 +1204,7 @@ The testing environment will consist of:
 TP-LIKE-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the liking post feature of the Instagram clone project. The purpose of this test plan is to ensure that the liking post feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the liking post feature of the Pixello project. The purpose of this test plan is to ensure that the liking post feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Liking post button
@@ -1271,7 +1271,7 @@ The testing environment will consist of:
 TP-COMM-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the commenting feature of the Instagram clone project. The purpose of this test plan is to ensure that the commenting feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the commenting feature of the Pixello project. The purpose of this test plan is to ensure that the commenting feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Commenting form
@@ -1344,7 +1344,7 @@ The testing environment will consist of:
 TP-REPLY-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the replying on comments feature of the Instagram clone project. The purpose of this test plan is to ensure that the replying on comments feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the replying on comments feature of the Pixello project. The purpose of this test plan is to ensure that the replying on comments feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Reply form
@@ -1417,7 +1417,7 @@ The testing environment will consist of:
 TP-NOTIF-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the notifications feature of the Instagram clone project. The purpose of this test plan is to ensure that the notifications feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the notifications feature of the Pixello project. The purpose of this test plan is to ensure that the notifications feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Notification system
@@ -1489,7 +1489,7 @@ The testing environment will consist of:
 TP-FOLLOW-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the "Follow" feature of the Instagram clone project. The purpose of this test plan is to ensure that the "Follow" feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the "Follow" feature of the Pixello project. The purpose of this test plan is to ensure that the "Follow" feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Follow button
@@ -1557,7 +1557,7 @@ The testing environment will consist of:
 TP-UNFOLLOW-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the "Unfollow" feature of the Instagram clone project. The purpose of this test plan is to ensure that the "Unfollow" feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the "Unfollow" feature of the Pixello project. The purpose of this test plan is to ensure that the "Unfollow" feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Unfollow button
@@ -1627,7 +1627,7 @@ The testing environment will consist of:
 TP-STORIES-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the "Stories" feature of the Instagram clone project. The purpose of this test plan is to ensure that the "Stories" feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the "Stories" feature of the Pixello project. The purpose of this test plan is to ensure that the "Stories" feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Story posting form
@@ -1699,7 +1699,7 @@ The testing environment will consist of:
 TP-REELS-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the "Reels" feature of the Instagram clone project. The purpose of this test plan is to ensure that the "Reels" feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the "Reels" feature of the Pixello project. The purpose of this test plan is to ensure that the "Reels" feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - Reel posting form
@@ -1776,7 +1776,7 @@ The testing environment will consist of:
 TP-DM-001
 
 **Test Plan Introduction**
-This test plan outlines the testing approach and strategy for the "Direct Messages" feature of the Instagram clone project. The purpose of this test plan is to ensure that the DMs feature meets the required functionality, performance, and security standards.
+This test plan outlines the testing approach and strategy for the "Direct Messages" feature of the Pixello project. The purpose of this test plan is to ensure that the DMs feature meets the required functionality, performance, and security standards.
 
 **Test Items**
 - DM sending form

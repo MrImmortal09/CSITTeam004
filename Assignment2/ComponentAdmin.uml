@@ -1,0 +1,20 @@
+@startuml
+' External Actor
+actor "Admin" as Admin
+
+' System Boundary: Pixello Admin Panel
+package "Admin Panel" {
+
+    ' Subsystems for Admin
+    rectangle "User Management" as UserManagement
+    rectangle "Content Moderation" as ContentModeration
+    rectangle "Analytics Management" as AnalyticsManagement
+    rectangle "Notification Management" as NotificationManagement
+}
+
+' Relationships between Admin and system components
+Admin --> UserManagement : Manage Users
+Admin --> ContentModeration : Moderate Content
+Admin --> AnalyticsManagement : Analyze Metrics
+Admin --> NotificationManagement : Manage Notifications
+@enduml

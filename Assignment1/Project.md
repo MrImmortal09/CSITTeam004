@@ -1,12 +1,12 @@
-# Instagram Clone
+# Pixello
 
-This project is an Instagram Clone, a replication of the popular social media platform for sharing photos and videos. Built using [ReactJs + VueJs, NodeJs, ExpressJs, MongoDB, SocketIO], it aims to include the core functionalities of Instagram, such as user authentication, photo sharing, liking, commenting, and following other users.
+This project is an Pixello, a replication of the popular social media platform for sharing photos and videos. Built using [ReactJs + VueJs, NodeJs, ExpressJs, MongoDB, SocketIO], it aims to include the core functionalities of Instagram, such as user authentication, photo sharing, liking, commenting, and following other users.
 
 ---
 
 ## Project Information
 
-### Project Name: Instagram Clone
+### Project Name: Pixello
 
 ### GitHub Issue: [Record of Approval](https://github.com/IIITLucknowSWEngg/Assignment/issues/2)
 ---
@@ -15,7 +15,7 @@ This project is an Instagram Clone, a replication of the popular social media pl
 ### **1. Scope of the Project**
 
 #### **1.1 Purpose**
-The Instagram Clone project aims to replicate the core functionalities of the Instagram platform, allowing users to share content, interact, and communicate in a secure and scalable environment.
+The Pixello project aims to replicate the core functionalities of the Instagram platform, allowing users to share content, interact, and communicate in a secure and scalable environment.
 
 #### **1.2 Objectives**
 1. Develop a robust platform for photo and video sharing with interactive features such as likes, comments, and follows.
@@ -107,6 +107,6 @@ Regular performance reviews and stakeholder meetings will ensure that risks are 
 ---
 
 ### **5. Conclusion**
-The Instagram Clone project will follow a systematic approach to ensure timely delivery and high-quality outcomes. Agile methodology, combined with modern technologies and regular stakeholder feedback, will guide the development process to achieve the defined goals.
+The Pixello project will follow a systematic approach to ensure timely delivery and high-quality outcomes. Agile methodology, combined with modern technologies and regular stakeholder feedback, will guide the development process to achieve the defined goals.
 
 --- 
